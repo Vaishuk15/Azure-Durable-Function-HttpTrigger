@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "DemoFunctionApp": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7098"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "httpPort": 34606,
+      "useSSL": false
+    }
+  }
+}
